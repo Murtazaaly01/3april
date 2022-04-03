@@ -93,7 +93,7 @@ def start(update, context):
 
     else :
 
-        sendMessage(f"<b>Hey dear,</b>\n\n<b>If You Want To Use Me</b>\n\n<b>You Have To Ask @JaaiAli</b>\n\n<b><i>NOTE : All These Media/files Uploaded to Google Drive From Now on</i></b>", context.bot, update
+        sendMessage(f"<b>Hey dear,</b>\n\n<b>If You Want To Use Me</b>\n\n<b>You Have To Ask @JaaiAli</b>\n\n<b><i>NOTE : All These Media/files Uploaded to Google Drive From Now on</i></b>", context.bot, update)
 def restart(update, context):
     restart_message = sendMessage("Restarting...", context.bot, update.message)
     if Interval:
